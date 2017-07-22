@@ -3,3 +3,4 @@ use-wheels.patch
 better-error-message.patch
 random-install-dir.patch
 no-touch-system-files.patch
+fix-pep440-nonconformance-handling.patch
