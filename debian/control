@@ -1,8 +1,9 @@
 Source: python-pip
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Carl Chenet <chaica@debian.org>, Jeff Licquia <licquia@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Carl Chenet <chaica@debian.org>, Jeff Licquia <licquia@debian.org>
 Homepage: http://www.pip-installer.org/
 Build-Depends: debhelper (>= 8),
                dh-python,
@@ -24,6 +25,7 @@ X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-pip/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-pip/trunk/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python-pip
 Architecture: all
